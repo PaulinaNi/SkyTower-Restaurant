@@ -1,0 +1,45 @@
+.menu{
+ padding: 2rem 0;
+ background-color: $main;
+ width: 100%;
+}
+.menu h2{
+ color: $white;
+}
+
+.menuInfo{
+ padding: 1rem 1rem;
+ color: $accent;
+}
+
+.menu section h3{
+ width: 80%;
+ margin: 2rem auto;
+ padding: 1rem 0;
+ color: $white;
+ text-transform: uppercase;
+ border-top: solid 0.1rem $accent;
+ border-bottom: solid 0.1rem $accent;
+}
+.meal img{
+ width: 100%;
+}
+
+@media (min-width: 48rem) {
+ .mealContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:1rem;
+ }
+ .meal h3{
+  width: 80%;
+ }
+ 
+ .meal{
+  width: 30%;
+ }
+ .meal img{
+  width: 100%;
+ }
+}

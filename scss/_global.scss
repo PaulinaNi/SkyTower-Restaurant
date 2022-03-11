@@ -1,0 +1,31 @@
+*{
+ box-sizing: border-box;
+ margin:0;
+ font-family: 'Josefin Slab', serif;
+}
+main{
+ margin: 0 auto;
+ text-align: center;
+}
+
+h2{
+ color: $main;
+ margin: 0 auto 1rem auto;
+ width: 80%;
+ font-size: 2rem;
+ padding: 1rem 0;
+ border-top: solid 0.1rem $accent;
+ border-bottom: solid 0.1rem $accent;
+}
+
+.hide{
+ display: none;
+}
+
+footer{
+ background-color: $accent;
+ padding: 1rem 0;
+ color:$white;
+ display: flex;
+ justify-content: center;
+}

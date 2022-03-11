@@ -1,0 +1,27 @@
+.openingTime{
+ padding: 1rem;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.openingTime h3{
+ padding: 1rem 0;
+ font-size: 2rem;
+}
+
+.openingTimeSchedule{
+ width: 60%;
+}
+.openingTimeSchedule span:first-child{
+ padding: 1rem 0;
+ display: block;
+ font-size: 1.5rem;
+}
+
+.time{
+ color:$accent;
+ font-weight: 700;
+ font-size: 1.2rem;
+}

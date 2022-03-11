@@ -1,0 +1,39 @@
+.whatToExpect{
+ text-align: center;
+ margin: 2rem 0;
+}
+
+.perks img{
+ width: 100%;
+}
+.perks div{
+ width: 100%;
+ padding: 1rem;
+}
+
+.perks h3{
+ letter-spacing: 0.2rem;
+ color: $accent;
+ padding-bottom: 1rem;
+}
+
+@media (min-width: 48rem) {
+ .perks{
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+ }
+ .perks img{
+  width: 50%;
+ }
+ .perks div{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+ .reverse{
+  flex-direction: row-reverse;
+ }
+}

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@200;400;700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="/scss/style.css">
+ <title>SkyTower Restaurant</title>
+</head>
+
+<body>
+
+ <nav>
+  <section class="mobileNav">
+   <div class="mobileNavButtons">
+    <img id="navCloseImg" class="hide" src="./img/close.png" alt="close menu button">
+    <img id="navOpenImg" class="" src="./img/menu.png" alt="open menu button">
+   </div>
+   <ul>
+    <li class="hide mobileLinksLi">
+     <a class="mobileLinks" href="#menu">Menu</a>
+    </li>
+    <li class="hide mobileLinksLi">
+     <a class="mobileLinks" href="#location">Location</a>
+    </li>
+    <li class="hide mobileLinksLi">
+     <a class="mobileLinks" href="#contact">Contact</a>
+    </li>
+   </ul>
+  </section>
+  <section class="desktopNav">
+   <ul>
+    <li><a href="#menu">Menu</a></li>
+    <li><a href="#location">Location</a></li>
+    <li><a href="#contact">Contact</a></li>
+   </ul>
+  </section>
+  
+ </nav>
+
+ <header>
+  <section class="hero">
+   <h1>SkyTower Restaurant</h1>
+   <p>Life’s too short for boring food and views!</p>
+  </section>
+ </header>
+
+ <main>
+
+  <section class="whatToExpect">
+   <h2>What to expect from a visit to our restaurant ?</h2>
+   <section class="perks">
+    <img src="/img/food.jpg" alt="our restaurant dish example">
+    <div>
+     <h3>GREAT FOOD</h3>
+     <p>
+      Our dishes are prepared from fresh and top-quality ingredients, and our chefs take care of the smallest details to
+      serve you something that you will remember even at the end of the most exciting day in your life.
+     </p>
+    </div>
+   </section>
+
+   <section class="perks reverse">
+    <img src="/img/view.jpg" alt="New York">
+    <div>
+     <h3>VIEWS</h3>
+     <p>
+      Our restaurant is located on the 80th floor, so our guests can enjoy the view of New York City from the top of the
+      skyscraper.
+     </p>
+    </div>
+   </section>
+
+   <section class="perks">
+    <img src="/img/music.jpg" alt="headset">
+    <div>
+     <h3>MUSIC OF YOUR CHOICE</h3>
+     <p>
+      There is always chill and relaxing music in the background, but if you would like to listen to music of your
+      choice there are wireless headsets ready for you to use and listen to whatever you desire.
+     </p>
+    </div>
+   </section>
+  </section>
+
+  <section id="menu" class="menu">
+   <h2>Our Menu</h2>
+   <h3 class="menuInfo">Our menu is seasonal, but we keep our customers' favourit meals all year round. </h3>
+   <section class="mealContainer">
+    <section class="meal">
+     <h3>Veal Steak with asparagus</h3>
+     <img src="/img/steak.jpg" alt="Veal Steak with asparagus">
+    </section>
+    <section class="meal">
+     <h3>Salmon with garden salad</h3>
+     <img src="/img/salmon.jpg" alt="Salmon with salad">
+    </section>
+    <section class="meal">
+     <h3>Pasta with green pesto</h3>
+     <img src="/img/pasta.jpg" alt="Pasta with green pesto">
+    </section>
+   </section>
+  </section>
+
+  <section class="openingTime">
+   <h2>Opening Time</h2>
+   <h3>SkyTower Restaurant is open 7 days a week</h3>
+   <section class="openingTimeSchedule">
+    <span>Sunday - Thursday</span>
+    <span class="time">1pm - 10pm</span>
+   </section>
+   <section class="openingTimeSchedule">
+    <span>Friday - Saturday</span>
+    <span class="time">1pm - 12pm</span>
+   </section>
+  </section>
+
+  <section id="location" class="location">
+   <h2>Where to find us</h2>
+   <section>
+    <div>
+     <span>Address:</span>
+     <span>225 West 57th Streett,<br>New York,<br>NY 10019 </span>
+     <span>Phone:</span>
+     <span>+1 123 1234567 </span>
+    </div>
+    <iframe class="map"
+     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.8080326405648!2d-73.98343218434339!3d40.76624674223142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f7bfa047d3%3A0x6a0207dccb48eb66!2s225%20W%2057th%20St%2C%20New%20York%2C%20NY%2010019%2C%20USA!5e0!3m2!1sen!2suk!4v1646772345264!5m2!1sen!2suk"
+     allowfullscreen="" loading="lazy">
+    </iframe>
+   </section>
+  </section>
+
+  <section id="contact" class="contact">
+   <h2>Would you like to book a table or ask a question?</h2>
+   <p id="submitMessage" class="hide">Contact form disabled as this is only a website example for a portfolio</p>
+
+   <form id="form">
+    <lable for="name"></lable>
+    <input type="text" name="name" id="name" placeholder="Name" required>
+
+    <lable for="email"></lable>
+    <input type="email" name="email" id="email" placeholder="Email" required>
+
+    <textarea name="message" id="message" placeholder="Message" required></textarea>
+
+    <input id="submitButton" type="submit" value="SEND MESSAGE">
+   </form>
+  </section>
+
+ </main>
+ <footer>
+  <span>All right reserved 2022</span>
+ </footer>
+
+ <script src="/js/app.js"></script>
+</body>
+
+</html>
