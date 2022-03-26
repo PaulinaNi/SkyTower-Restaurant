@@ -6,7 +6,7 @@
 
 .contact{
  width: 100%;
- padding: 1rem 0;
+ padding: 4rem 0;
  width: 100%;
  background-color: $main;
  color: $white;
@@ -58,7 +58,9 @@
 }
 
 @media (min-width: 48rem) {
-
+ .contact{
+  padding: 1rem 0;
+ }
  form{
   margin: 0 auto;
   width: 60%;

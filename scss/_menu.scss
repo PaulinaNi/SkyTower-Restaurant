@@ -1,5 +1,5 @@
 .menu{
- padding: 2rem 0;
+ padding: 4rem 0 2rem 0;
  background-color: $main;
  width: 100%;
 }
@@ -26,6 +26,9 @@
 }
 
 @media (min-width: 48rem) {
+ .menu{
+  padding: 3.5rem 0 2rem 0;
+ }
  .mealContainer{
   display: flex;
   justify-content: center;

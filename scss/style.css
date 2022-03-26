@@ -110,7 +110,7 @@ nav a:visited {
 }
 
 .desktopNav a:hover {
-  padding-bottom: 1rem;
+  padding-bottom: 0.9rem;
   color: #FCA6A6;
   border-bottom: 0.1rem solid #FCA6A6;
 }
@@ -225,7 +225,7 @@ nav a:visited {
 }
 
 .menu {
-  padding: 2rem 0;
+  padding: 4rem 0 2rem 0;
   background-color: #407F7F;
   width: 100%;
 }
@@ -254,6 +254,9 @@ nav a:visited {
 }
 
 @media (min-width: 48rem) {
+  .menu {
+    padding: 3.5rem 0 2rem 0;
+  }
   .mealContainer {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -316,7 +319,7 @@ nav a:visited {
 }
 
 .location {
-  margin: 1rem 0;
+  padding: 4rem 0 1rem 0;
 }
 
 .location div {
@@ -362,7 +365,7 @@ nav a:visited {
 
 .contact {
   width: 100%;
-  padding: 1rem 0;
+  padding: 4rem 0;
   width: 100%;
   background-color: #407F7F;
   color: #ffffff;
@@ -437,6 +440,9 @@ nav a:visited {
 }
 
 @media (min-width: 48rem) {
+  .contact {
+    padding: 1rem 0;
+  }
   form {
     margin: 0 auto;
     width: 60%;
